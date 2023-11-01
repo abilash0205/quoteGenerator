@@ -29,6 +29,7 @@ const RandomQuote = () => {
   loadQuotes();
 
   return (
+    <div className="wrapper">
     <div className="container">
       <div className="quote">{quote.text}</div>
       <div>
@@ -49,6 +50,7 @@ const RandomQuote = () => {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 };
